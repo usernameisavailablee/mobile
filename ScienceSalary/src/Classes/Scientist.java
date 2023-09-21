@@ -7,7 +7,7 @@ public abstract class Scientist{
         this.salary = salary;
     }
     public double allowance (){
-        double calculated_allowance = 0;
+        double calculated_allowance = 1;
         return  calculated_allowance;
     }
     public void recruit (){
@@ -27,6 +27,15 @@ public abstract class Scientist{
 
     public void get_salary(){
         
+    }
+
+    public double getSeniority() {
+        return this.seniority;
+    }
+    public void setSeniority(int newValue) {
+        if (newValue >= 0) {
+            seniority = newValue;
+        }
     }
 
     public String toString() {

@@ -11,4 +11,5 @@ public class Engeneer extends Scientist{
         return calculated_allowance;
     }
 
+
 }
