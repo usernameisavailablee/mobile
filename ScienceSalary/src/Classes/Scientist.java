@@ -29,6 +29,14 @@ public abstract class Scientist{
         
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        else return false;
+    }
+
     public double getSeniority() {
         return this.seniority;
     }

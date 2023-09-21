@@ -17,10 +17,15 @@ public class Main {
         arr[6] = new SeniorResearcher(17,150000);
         arr[7] = new SeniorResearcher(14,150000);
 
-        System.out.print(arr[0].toString());
-        System.out.print(arr[0].allowance());
-        double a = arr[0].getSeniority();
-        System.out.print(a);
+        // преобразование в  строку
+        System.out.println(arr[0].toString());
+        //расчёт надбавки
+        System.out.println(arr[0].allowance());
+        //равны?
+        boolean a = arr[0].equals(arr[2]);
+        System.out.println(a);
+
+
 
 
 
