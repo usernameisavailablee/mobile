@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ca1c/Ca1c.iml" filepath="$PROJECT_DIR$/Ca1c/Ca1c.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScienceSalary/ScienceSalary.iml" filepath="$PROJECT_DIR$/ScienceSalary/ScienceSalary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab2/lab2.iml" filepath="$PROJECT_DIR$/lab2/lab2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mobile.iml" filepath="$PROJECT_DIR$/.idea/mobile.iml" />
+    </modules>
+  </component>
+</project>
