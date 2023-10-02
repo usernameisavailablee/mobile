@@ -18,11 +18,11 @@ public class Main {
         arr[7] = new SeniorResearcher(14,150000);
 
         // преобразование в  строку
-//        System.out.println(arr[0].toString());
+        System.out.println(arr[0].toString());
         //расчёт надбавки
         System.out.println(arr[0].allowance());
 //        //равны?
-//        boolean a = arr[0].equals(arr[0]);
+        boolean a = arr[0].equals(arr[0]);
 //        System.out.println(a);
 
 
